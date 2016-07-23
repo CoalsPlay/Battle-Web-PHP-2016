@@ -1,0 +1,6 @@
+- Justamente al instalar el juego podrá ver en el top que no sale ningún usuario y eso es debido a que no aparecerán personas en el top que tengan
+permisos de administrador y nuestra cuenta inicial al ser administradora no se registra ningún tipo de información en el TOP.
+
+- Al instalar el juego quizá experimente cosas raras en la web, esto es debido al sistema de permisos ya que al solo haber un usuario registrado
+y tener permisos hay sistemas que no se actualizan correctamente hecho apropósito para que los usuarios con rango no se interpongan
+en la jugabilidad o estadísticas de la web.

@@ -1,0 +1,21 @@
+[ES] - Instrucciones de uso e instalación.
+
+Para instalar este juego en su hosting, debe acceder a su Phpmyadmin correspondiente(u otro gestor mysql) e importar la base de datos
+que se encuentra dentro de la carpeta DB, y configurar los datos de tu acceso a la base de datos, en el archivo conexion.php que se encuentra
+en la carpeta "conexion". Una vez configurado los campos necesarios para la conexión MySQL, descomprime el archivo install.rar, donde
+encontrará un archivo llamado install.php, el cual debes acceder a él mediante la URL y rellenar el formulario de información de tu web
+y estará lista para empezar. En dicho formulario podrá especificar información de la web tal y como el nombre, la url, descripción y 
+posteriormente crear una cuenta con los permisos de administrador.
+
+IMPORTANTE: Recuerde borrar el archivo install.php una vez haya finalizado la instalación. De lo contrario el sitio será muy inseguro.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[EN] - Instructions for use and installation.
+
+To install this game on your hosting must access the install.php file and fill out the form with the data you have your website, you only need
+specify the path to your site, the site name below and register an account which will have the necessary permissions to access the
+administration and to continue setting up the site from within.
+
+IMPORTANT: Remember to delete the file install.php once installation is complete. Otherwise the site will be very insecure.
+

@@ -1,0 +1,57 @@
+# Activar RewriteEngine
+RewriteEngine on
+ 
+#   Entrada:  perfil/nombre/
+#   Salida: perfil.php?usuario=nombre
+RewriteRule ^perfil/(\w+)/?$ perfil.php?usuario=$1
+
+#   Entrada:  index/pagina/
+#   Salida: index.php?pagina=numero
+RewriteRule ^index/(\w+)/?$ index.php?pagina=$1
+
+#   Entrada:  noticia/idnoticia/
+#   Salida: noticia.php?id=numero
+RewriteRule ^noticia/(\w+)/?$ noticia.php?id=$1
+
+#   Entrada:  usuarios/pagina/
+#   Salida: usuarios.php?pagina=numero
+RewriteRule ^usuarios/(\w+)/?$ usuarios.php?pagina=$1
+
+#   Entrada:  mobs/pagina/
+#   Salida: mobs.php?mobs=numero
+RewriteRule ^mobs/(\w+)/?$ mobs.php?mobs=$1
+
+#   Entrada:  bandeja_de_entrada/pagina/
+#   Salida: bandeja_de_entrada.php?mensajes=numero
+RewriteRule ^bandeja_de_entrada/(\w+)/?$ bandeja_de_entrada.php?mensajes=$1
+
+#   Entrada:  mensajes_enviados/pagina/
+#   Salida: mensajes_enviados.php?mensajes=numero
+RewriteRule ^mensajes_enviados/(\w+)/?$ mensajes_enviados.php?mensajes=$1
+
+#   Entrada:  solicitudes/pagina/
+#   Salida: solicitudes.php?pagina=numero
+RewriteRule ^solicitudes/(\w+)/?$ solicitudes.php?pagina=$1
+
+#   Entrada:  solicitudes/pagina/
+#   Salida: solicitudes.php?mensajes=numero
+RewriteRule ^solicitudes/(\w+)/?$ solicitudes.php?id_acept=$1
+
+#   Entrada:  tienda/pagina/
+#   Salida: tienda.php?articulos=numero
+RewriteRule ^tienda/(\w+)/?$ tienda.php?articulos=$1
+
+#   Entrada:  inventario/pagina/
+#   Salida: inventario.php?articulos=numero
+RewriteRule ^inventario/(\w+)/?$ inventario.php?articulos=$1
+
+#   Entrada:  cementerio/pagina/
+#   Salida: cementerio.php?fallecidos=numero
+RewriteRule ^cementerio/(\w+)/?$ cementerio.php?fallecidos=$1
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+

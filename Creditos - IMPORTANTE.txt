@@ -1,0 +1,7 @@
+Shadow Of Dragons es ahora open source, pero me reservo los derechos de autor, debido a que esto era un proyecto destinado
+a una distribuición de pago, pero debido a su abandono en cuanto a desarrollo he decidido dejarlo de forma gratuita para quien
+quiera "estudiar" el código o hacerse una idea para sus propios sistemas. Pero queda prohibido bajo mi Copyright poner en venta
+o distribuir este proyecto a cambio de dinero u otro servicio. Pero se permite totalmente la modificación libre de ello, implementaciones
+de sistemas o mejorarlo(si es así, me haría ilusión verlo xD).
+
+Un saludo y que aproveche! - CoalsPlay
